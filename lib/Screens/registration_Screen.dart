@@ -1,7 +1,5 @@
 
 
-
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 class RegistrationScreen extends StatefulWidget {
@@ -13,10 +11,8 @@ class _RegistrationScreenState extends State<RegistrationScreen>{
   final TextEditingController lastNameController = TextEditingController();
   final TextEditingController emailController = TextEditingController();
   bool isRegistered = false;
-}
 
-
-@override
+  @override
 Widget build (BuildContext context) {
   return Scaffold(
     appBar:AppBar(
@@ -24,3 +20,6 @@ Widget build (BuildContext context) {
     ) ,
   );
 }
+}
+
+
